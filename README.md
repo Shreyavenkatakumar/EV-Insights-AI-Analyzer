@@ -1,71 +1,38 @@
-# 🚗 Electric Vehicle (EV) Sales Prediction
+# 🚗 EV Sales Prediction – AICTE EduNet Internship Project
 
-### 📘 Overview
-This project is developed as part of the **AICTE – EduNet Internship (Electric Vehicle Theme)**.  
-It focuses on **analyzing and predicting global Electric Vehicle (EV) sales trends** using machine learning and exploratory data analysis techniques.
+## 🧩 Problem Statement
+The project aims to analyze and predict the global growth of **Electric Vehicle (EV) sales** using historical data.  
+As EV adoption accelerates worldwide, understanding regional trends and annual sales growth helps policymakers, manufacturers, and researchers plan for a sustainable future in electric mobility.
 
----
+## 📊 Objective
+To clean, analyze, and visualize EV sales data and identify key growth patterns and top-performing regions.
 
-### 📊 Project Highlights
-- **Dataset:** EV sales data from multiple countries (2010–2023)  
-- **Tech Stack:** Python, Pandas, Matplotlib, Seaborn  
-- **Notebook:** `week1_ev_sales_prediction.ipynb`  
-- **Visualizations:**
-  - Global EV Sales Trend  
-  - Top 5 Regions by EV Sales  
-  - Correlation Heatmap  
+## 🧠 Technologies Used
+- Python (Pandas, Matplotlib, Seaborn)
+- Jupyter Notebook
+- Data Visualization
+- Machine Learning (upcoming in next modules)
 
----
+## 📁 Dataset
+The dataset used for this project is obtained from the **IEA Global EV Data** (International Energy Agency), containing country-wise and yearly EV sales, stock, and powertrain data.
 
-### 🧹 Data Cleaning
-Steps performed before analysis:
-1. Filtered only EV sales-related data (`parameter == "EV sales"`)
-2. Selected relevant columns: `region`, `year`, and `value`
-3. Converted columns to numeric values and removed missing data
-4. Verified the cleaned dataset shape → `(1342, 3)`
+## 🔍 Key Insights
+- Global EV sales show an exponential rise after 2018.
+- China and Europe dominate global EV markets.
+- Strong positive correlation between year and EV adoption.
 
----
+## 📸 Visualizations
+All generated charts are saved in the `/images` folder:
+- `ev_sales_trend.png` – EV Sales Over the Years  
+- `top_regions.png` – Top 5 Regions by Total EV Sales  
+- `heatmap.png` – Correlation Heatmap
 
-### 📈 Exploratory Data Analysis (EDA)
-#### 1️⃣ Global EV Sales Over the Years
-![EV Sales Trend](images/ev_sales_trend.png)
-
-#### 2️⃣ Top 5 Regions by Total EV Sales
-![Top Regions](images/top_regions.png)
-
-#### 3️⃣ Correlation Heatmap
-![Heatmap](images/heatmap.png)
+## 📘 About the Project
+This project is part of the **AICTE EduNet Internship Program (Electric Vehicle Theme)**.  
+It demonstrates data cleaning, exploratory analysis, and visual storytelling using Python and Jupyter Notebook.
 
 ---
 
-### 🧠 Insights
-- EV sales have shown **steady growth after 2015**, accelerating rapidly post-2020.  
-- **China, Europe, and the USA** contribute the most to global EV adoption.  
-- Strong correlation between year and sales value confirms consistent market expansion.
-
----
-
-### 💻 Tools & Libraries Used
-- **Python 3.x**
-- **Pandas** – for data preprocessing  
-- **Matplotlib & Seaborn** – for data visualization  
-- **Jupyter Notebook** – for analysis and documentation  
-
----
-
-### 🏁 Future Scope
-- Implement predictive modeling using **Linear Regression / Random Forest**  
-- Expand analysis to include **EV stock share, powertrain, and emission data**  
-- Deploy a simple dashboard for **interactive EV trend visualization**
-
----
-
-### 👩‍💻 Author
-**Shreya V**  
-B.E. Computer Science and Engineering (Cybersecurity)  
-Sri Krishna College of Technology, Coimbatore  
-🔗 [GitHub Profile](https://github.com/Shreyavenkatakumar)
-
----
-
-⭐ *If you like this project, don’t forget to star the repository!*
+👩‍💻 **Author:** Shreya Venkatakumar  
+🎓 *Cybersecurity Department, Sri Krishna College of Technology*  
+📅 *Week 1 – Internship Project (EV Sales Prediction)*
