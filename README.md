@@ -80,7 +80,7 @@ To predict global EV sales based on year, region, category, mode, and powertrain
 ### 🔮 Prediction Visualization
 Displays how close the predicted EV sales values are to the actual sales.
 
-![Model Predictions](images/advanced_model_predictions.png)
+![Advanced Model Predictions](images/advanced_model_predictions.png)
 
 ---
 
