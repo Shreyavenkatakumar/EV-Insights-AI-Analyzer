@@ -9,8 +9,8 @@ To run this application locally, please follow these steps.
 ### Installation & Running
 1.  **Clone the Repository**
     ```sh
-    git clone https://github.com/Shreyavenkatakumar/EV-Sales-Prediction.git
-    cd EV-Sales-Prediction
+    git clone https://github.com/Shreyavenkatakumar/EV-Insights-AI-Analyzer.git
+    cd EV-Insights-AI-Analyzer
     ```
 2.  **Install Dependencies**
     ```sh
@@ -25,11 +25,12 @@ To run this application locally, please follow these steps.
 ## 🌐 Deployment
 
 This app is designed for easy deployment on Streamlit Community Cloud.
-1. Push this entire repository to your GitHub account.
+1. Push this entire repository (including the `models/` folder) to your GitHub account.
 2. Go to [**share.streamlit.io**](https://share.streamlit.io).
-3. Connect your GitHub account and select this repository.
-4. Ensure the "Main file path" is set to `app.py`.
-5. Click "Deploy!"
+3. Connect your GitHub account.
+4. Click "New app" and select the repository.
+5. Ensure the "Main file path" is set to `app.py`.
+6. Click "Deploy!"
 
 ## 👩‍💻 Author
 
