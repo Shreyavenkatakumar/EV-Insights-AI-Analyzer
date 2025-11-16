@@ -1,122 +1,188 @@
-# 🚗 Electric Vehicle (EV) Sales Prediction
+⚡ EV Insights AI Analyzer
+AI-powered Dashboard for EV Sales Analysis, Prediction, and Interactive Insights
+<div align="center">
 
-### 📘 Overview
-This project is developed as part of the **AICTE – EduNet Internship (Electric Vehicle Theme)**.  
-It focuses on **analyzing and predicting global Electric Vehicle (EV) sales trends** using **data visualization and machine learning** techniques.
+🚗 Smart Analytics • 🤖 Offline AI Chatbot • 📊 Interactive Visuals • 🔮 ML Predictions
+A complete EV analytics powerhouse built using Streamlit.
 
-The goal is to understand EV adoption patterns across different regions and forecast future growth trends using real-world EV sales data.
+</div>
+🔥 Overview
 
----
+EV Insights AI Analyzer is a powerful, interactive web application designed to analyze global Electric Vehicle (EV) sales data.
+It combines data analytics, machine learning prediction, offline AI chat, and visual storytelling in one beautifully organized dashboard.
 
-## 📊 Project Highlights
-- **Dataset:** Global EV sales data (2010–2023)  
-- **Tech Stack:** Python, Pandas, Seaborn, Matplotlib, Scikit-Learn  
-- **Notebook Used:** `week1_ev_sales_prediction.ipynb`  
-- **Outputs Generated:**
-  - 📈 Global EV Sales Trend  
-  - 🌍 Top 5 Regions by EV Sales  
-  - 🔥 Correlation Heatmap  
-  - 🤖 Advanced Machine Learning Model (Gradient Boosting)
+Built with Python + Streamlit, the tool helps users:
 
----
+✔ Explore historical EV sales
+✔ Predict future trends
+✔ Interact with an intelligent data chatbot
+✔ Upload and analyze their own datasets
+✔ Visualize top regions, trends, and patterns
 
-## 🧹 Data Cleaning
-Before performing analysis, the dataset was cleaned and filtered for relevant records.
+Perfect for projects, hackathons, academic submissions, research, and live demos.
 
-**Steps performed:**
-1. Filtered only EV sales data (`parameter == "EV sales"`)
-2. Selected key columns: `region`, `year`, and `value`
-3. Converted data types to numeric and dropped missing values
-4. Verified the cleaned dataset → **(1342 rows × 3 columns)**
+✨ Key Features
+⚡ 1. AI Chat Assistant (NO API Required)
 
----
+A fully offline chatbot that understands your queries and analyzes the dataset.
 
-## 📈 Exploratory Data Analysis (EDA)
+Ask questions like:
 
-### 1️⃣ Global EV Sales Over the Years
-Visualizes how EV sales have evolved globally over the years.
+“What are the top 5 regions by EV sales?”
 
-![EV Sales Trend](images/ev_sales_trend.png)
+“Which year had the highest EV sales?”
 
----
+“How many EVs were sold in China?”
 
-### 2️⃣ Top 5 Regions by Total EV Sales
-Highlights the top-performing regions based on total EV sales.
+“Tell me about EVs.”
 
-![Top Regions](images/top_regions.png)
+It uses pattern recognition + rules to give intelligent, clean answers.
 
----
+🔮 2. ML-Based Sales Prediction
 
-### 3️⃣ Correlation Heatmap
-Shows the correlation between numerical features in the dataset.
+Predict future EV sales based on:
 
-![Heatmap](images/heatmap.png)
+Region
 
----
+Mode
 
-## 🤖 Machine Learning Model (Week 2)
+Powertrain
 
-### ✅ Model Used: Gradient Boosting Regressor
-To predict global EV sales based on year, region, category, mode, and powertrain.
+Category
 
-**Key steps:**
-- Encoded categorical features (`region`, `mode`, `powertrain`, `category`)
-- Added polynomial features to capture non-linear trends
-- Applied log transformation on target (`value`) for stability
-- Used **Gradient Boosting Regressor** for accurate predictions
+Year
 
----
+Features:
 
-### 📊 Model Performance
+✔ Pretrained scikit-learn model
+✔ Polynomial features
+✔ Encoded categorical values
+✔ Clean metrics & visual output
 
-| Metric | Value |
-|:--------|:--------|
-| **R² Score (Accuracy)** | **83.63%** |
-| **MAE** | 39,014.87 |
-| **RMSE** | 234,987.92 |
+📊 3. Interactive Data Visualizations
 
----
+Built using Matplotlib + Seaborn, including:
 
-### 🔮 Prediction Visualization
-Displays how close the predicted EV sales values are to the actual sales.
+EV sales trend (year-wise)
 
-![Advanced Model Predictions](images/advanced_model_predictions.png)
+Top 10 regions by sales
 
----
+Visuals for any uploaded CSV
 
-## 🧠 Key Insights
-- EV sales have shown **exponential growth after 2015**, driven by technological innovation and policy support.  
-- **China, Europe, and the United States** lead the EV market globally.  
-- The **machine learning model (83.6% accuracy)** effectively predicts EV sales trends.  
-- The growth pattern suggests continued acceleration in global EV adoption.
+All visuals are clean, readable, and presented in professional container blocks.
 
----
+📂 4. Upload & Analyze Your Own CSV
 
-## 🏁 Future Scope
-- 🧮 Implement time-series forecasting models (ARIMA, LSTM) for future EV sales prediction  
-- 📊 Develop an interactive dashboard for real-time visualization  
-- ⚡ Expand analysis to include **charging infrastructure and emission reduction data**
+Upload a custom dataset with the columns:
 
----
+region, year, value, parameter
 
-## 🧰 Tools & Libraries Used
-| Category | Libraries |
-|-----------|------------|
-| **Data Handling** | Pandas, NumPy |
-| **Visualization** | Matplotlib, Seaborn |
-| **Machine Learning** | Scikit-learn (Gradient Boosting, Preprocessing) |
-| **Environment** | Jupyter Notebook |
 
----
+The system automatically:
 
-## 👩‍💻 Author
-**Shreya V**  
-B.E. Computer Science and Engineering (Cybersecurity)  
-Sri Krishna College of Technology, Coimbatore  
+✔ Validates
+✔ Cleans
+✔ Analyzes
+✔ Visualizes
 
-🔗 [GitHub Profile](https://github.com/Shreyavenkatakumar)
+your dataset.
 
----
+🎨 5. Modern & Professional UI
 
-⭐ *If you found this project helpful or inspiring, please give it a star on GitHub!* 🌟
+Thanks to a custom theme in .streamlit/config.toml, the UI includes:
 
+Soft color palette
+
+Sidebar navigation
+
+Section cards with borders
+
+Typewriter animation for chatbot
+
+Polished layout with metric cards
+
+Looks clean, premium, and highly presentable.
+
+🧠 Tech Stack
+Component	Technology
+Frontend / UI	Streamlit
+Backend	Python
+Machine Learning	Scikit-Learn
+Visuals	Matplotlib, Seaborn
+Storage	Joblib
+Dataset	IEA EV Sales Dataset
+📁 Project Structure
+EV-Insights-AI-Analyzer/
+│── app.py
+│── models/
+│      ├── model.pkl
+│      ├── scaler.pkl
+│      ├── encoders.pkl
+│      ├── poly.pkl
+│── images/
+│      └── logo.png
+│── IEA-EV-dataEV salesHistoricalCars.csv
+│── .streamlit/
+│      └── config.toml
+│── README.md
+│── requirements.txt
+
+🚀 Running Locally
+1. Clone the Repository
+git clone https://github.com/your-username/EV-Insights-AI-Analyzer.git
+cd EV-Insights-AI-Analyzer
+
+2. Install Dependencies
+pip install -r requirements.txt
+
+3. Run the App
+streamlit run app.py
+
+🌐 Deployment (Streamlit Cloud)
+
+Push this repository to GitHub
+
+Go to https://share.streamlit.io
+
+Connect your repo
+
+Select app.py
+
+Deploy 🚀
+
+Make sure to upload the models/ folder and dataset too.
+
+🎯 Why This Project Stands Out
+
+Clean UI
+
+Offline AI chatbot
+
+Real EV dataset
+
+Strong ML integration
+
+Reusable components
+
+Hackathon-ready quality
+
+Easy to extend
+
+This level of polish and functionality is exactly what judges love.
+
+💡 Future Enhancements
+
+Live EV news feed
+
+Multi-model prediction comparison
+
+Region-wise forecasting
+
+Battery type / manufacturer-wise analysis
+
+👩‍💻 Author
+
+Shreya V
+Cybersecurity Student | ML & Data Analytics Enthusiast
+linkedin: https://www.linkedin.com/in/shreya-v-177672294/
+Github:https://github.com/Shreyavenkatakumar
