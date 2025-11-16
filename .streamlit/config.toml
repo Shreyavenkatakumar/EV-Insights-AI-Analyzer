@@ -1,0 +1,9 @@
+# .streamlit/config.toml
+
+[theme]
+# A professional and unique "Deep Indigo & Slate" light theme
+primaryColor="#4F8BF9"              # A strong, confident indigo blue
+backgroundColor="#FFFFFF"          # A crisp white main background
+secondaryBackgroundColor="#F0F2F6"  # A soft slate-grey for containers and sidebars
+textColor="#31333F"                # A dark, readable charcoal for text
+font="sans serif"
