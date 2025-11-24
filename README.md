@@ -31,6 +31,7 @@ This app is designed for easy deployment on Streamlit Community Cloud.
 4. Click "New app" and select the repository.
 5. Ensure the "Main file path" is set to `app.py`.
 6. Click "Deploy!"
+
 7.This app is deployed and accessible to everyone.
 
 🔗 **Live App:** https://ev-insights-ai-analyzer.streamlit.app/
